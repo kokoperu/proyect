@@ -226,14 +226,7 @@ input:focus, textarea:focus {
   color: white;
   padding: 20px;
   height: 500px;
-  
-
-
-
-}
-
-.portada button {
-
+ 
 }
 
 
@@ -571,12 +564,6 @@ article ul li{
     padding: 0;
   }
 
-  /* contenedor islas */
-  /*.video-demo {
-    margin: 0 10px;
-  }*/
-  /* contenedor isla */
-
 }
 
 
@@ -700,21 +687,6 @@ article ul li{
    .video-demo-contenedor {
     margin: 0 10px 30px 10px;
   }
-/*
-   .video-demo-contenedor {
-    margin: 0;
-  }*/
-
-  /* islas  contenedor*/
-
-  /* footer */ /*
-  .col2 {
-    align-items: stretch;
-  }  */
-  /* footer */
-
-
-
 
 
 video {
