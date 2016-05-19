@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Iquitos' Jungle Club..!!</title>
+    <meta charset="utf-8"/>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700|Allerta' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/style.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+    <!-- <link rel="stylesheet" media="(max-width: 800px)" href="css/media-querie.css"/> -->
+  </head>
+  <body>
+    <section id="portada" class="portada background"> <!-- portada -->
+      <header id="header" class="header contenedor"> <!-- header -->
+        <figure class="logotipo"> <!-- logotipo -->
+
+          <img src="images/logo-color.png" srcset="images/logo-color.png, images/logo-color2x.png 2x" width="194" height="45" alt="Iquitos' JC logotipo"/>
+
+      
+        </figure>
+        <span class="burguer-button icon-menu" id="burguer-button"></span>
+        <nav class="menu" id="menu"> <!-- menu -->
+          <ul>
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a href="#isla">Urbano</a>
+            </li>
+            <li>
+              <a href="html/rural.html">Rural</a>
+            </li>
+             <li>
+              <a href="html/informacion.html">Información</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <div class="contenedor">
+        <h1 class="titulo"><span>Iquitos</span>' Jungle Club </h1><!-- titulo -->
+        <h3 class="title-a">Vén y diviertete todo el año en nuestra ciudad Tropical..!!</h3><!-- resumen -->
+        <a class="button" href="#isla">Conoce mas</a><!-- boton -->
+      </div>
+    </section>
+    <section id="isla" class="isla contenedor"> <!-- contenedor de las ciudad-a y ciudad-b -->
+
+      <h2>La Perla Amazónica</h2><!-- titulo -->
+ 
+    <!--<div class="video-demo-contenedor">
+        <div class="video-demo">
+          <div class="video-responsive-contenedor">
+            <iframe class="video-responsive-src" width="560" height="315" src="https://www.youtube.com/embed/R1dW8M4EqYY" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div> -->
+      <!--<video src="video/320x240.ogg"></video>  -->
+
+      <article class="urba-campo"> <!-- contenedor de lo urbano -->
+        <img class="derecha" data-src="images/urbano1.png|images/urbano2x.png"  alt="Casa de Hierro" width="300"/>
+        <div class="contenedor-ciudad-a">
+          <h3 class="title-b">Turísmo Urbano</h3>
+          <ol>
+            <li>Malecón del Río Amazonas</li>
+            <li>Boulevard </li>
+            <li>Casa de Hierro construida en 1890</li>
+          </ol>
+        </div>
+      </article>
+      <article class="urba-campo b"> <!-- contenedor de campo  -->
+        <img class="izquierda" data-src="images/recreo.png|images/recreo2x.png" alt="Serpentario Quistococha" width="350"/>
+        <div class="contenedor-ciudad-b">
+          <h3 class="title-b">Turísmo Aventura</h3>
+          <ol>
+            <li>Recreo Quistococha</li>
+            <li>Santo Tómas</li>
+            <li>Santa Clara y otro lugares más</li>
+          </ol>
+        </div>
+      </article>
+   </section>
+    <footer class="footer">
+      <div class="contenedor">
+        <div class="contacto">
+          <img data-src="images/logo-white.png|images/logo-white2x.png" alt="logotipo blanco"/>
+          <a href="tel:+51+1489563233"><strong>Telefono</strong> <span>0-800-0000</span></a>
+          <a href="mailto:iquitosjungleclub@outlook.com"><strong>E-mail</strong> <span>iquitosjungleclub@outlook.com</span></a>
+        </div>
+        <form class="formulario">
+
+    <!--      <div class="col1">
+=======
+        <!--  <div class="col1">
+
+
+            <label for="nombre">Nombre</label>
+            <input type="text" required id="nombre" name="nombre"/>
+            <label for="email">E-mail</label>
+            <input type="email" required id="email" name="email"/>
+            <div class="sexo">
+              <label for="mujer">
+                <input type="radio" id="mujer" checked name="sexo" value="mujer"> mujer
+              </label>
+              <label for="hombre">
+                <input type="radio" id="hombre" name="sexo" value="hombre"> hombre
+              </label>
+            </div>
+            <div class="intereses">
+              <label for="cotizacion">
+                <input type="checkbox" checked id="cotizacion" name="intereses" value="cotizacion"> Cotización
+              </label>
+              <label for="reclamos">
+                <input type="checkbox" id="reclamos" name="intereses" value="reclamos"> Reclamos
+              </label>
+              <label for="comentarios">
+                <input type="checkbox" id="comentarios" name="intereses" value="comantarios"> Comentarios
+              </label>
+              <label for="otros">
+                <input type="checkbox" id="otros" name="intereses" value="otros"> Otros
+              </label>
+            </div>
+          </div>
+          <div class="col2">
+            <label for="comentarios">Comentarios</label>
+            <textarea name="comantarios" id="comentarios" cols="30" rows="7"></textarea>
+            <input type="submit" value="Enviar" class="button"/>
+          </div>-->
+
+
+        </form>
+      </div> 
+    </footer>
+    <center></br>2016 - Derecchos Reservados &copyRigth <a href="https://www.facebook.com/1733597593524098/" target="blank" class="layout_a"> --- Iquitos' Jungle Club ---</a></center>
+
+   
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.7/hammer.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/blazy/1.5.4/blazy.min.js"></script>
+    <script>
+      var consulta = window.matchMedia('(max-width: 500px)');
+      consulta.addListener(mediaQuery);
+
+      var $burguerButton = document.getElementById('burguer-button');
+      var $menu = document.getElementById('menu');
+      function toggleMenu(){
+        $menu.classList.toggle('active')
+      };
+      function showMenu(){
+        $menu.classList.add('active');
+      };
+      function hideMenu(){
+        $menu.classList.remove('active');
+      };
+
+      function mediaQuery() {
+        if (consulta.matches) {
+          // si se cumple hagamos esto
+          console.log('se cumplió la condicion');
+          $burguerButton.addEventListener('touchstart', toggleMenu);
+        } else {
+          $burguerButton.removeEventListener('touchstart', toggleMenu);
+          // si no se cumple hagamos esto
+          console.log('no se cumplió la condicion');
+        }
+      }
+      mediaQuery();
+
+      // lazy loading
+      var bLazy = new Blazy({
+          selector: 'img'
+      });
+      // $burguerButton.addEventListener('touchstart', toggleMenu);
+
+      // function toggleMenu(){
+      //   $menu.classList.toggle('active')
+      // };
+
+      // Gestos touch
+      var $body = document.body;
+
+      var gestos = new Hammer($body);
+      gestos.on('swipeleft', hideMenu);
+      gestos.on('swiperight', showMenu);
+    </script>
+  </body>
+</html>
