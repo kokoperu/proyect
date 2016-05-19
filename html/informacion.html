@@ -191,47 +191,28 @@ De la comida no se preocupe es muy exquisita, siempre y cuando asista a los luga
           <a href="tel:+511489563233"><strong>Telefono</strong> <span>0800-0000</span></a>
           <a href="mailto:iquitosjungleclub@outlook.com"><strong>E-mail</strong> <span>iquitosjungleclub@outlook.com</span></a>
         </div>
-        <form class="formulario">
-      <!--    <div class="col1">
-            <label for="nombre">Nombre</label>
-            <input type="text" required id="nombre" name="nombre"/>
-            <label for="email">E-mail</label>
-            <input type="email" required id="email" name="email"/>
-            <div class="sexo">
-              <label for="mujer">
-                <input type="radio" id="mujer" checked name="sexo" value="mujer"> mujer
-              </label>
-              <label for="hombre">
-                <input type="radio" id="hombre" name="sexo" value="hombre"> hombre
-              </label>
-            </div>
-            <div class="intereses">
-              <label for="cotizacion">
-                <input type="checkbox" checked id="cotizacion" name="intereses" value="cotizacion"> Cotización
-              </label>
-              <label for="reclamos">
-                <input type="checkbox" id="reclamos" name="intereses" value="reclamos"> Reclamos
-              </label>
-              <label for="comentarios">
-                <input type="checkbox" id="comentarios" name="intereses" value="comantarios"> Comentarios
-              </label>
-              <label for="otros">
-                <input type="checkbox" id="otros" name="intereses" value="otros"> Otros
-              </label>
-            </div>
-          </div>
-          <div class="col2">
-            <label for="comentarios">Comentarios</label>
-            <textarea name="comantarios" id="comentarios" cols="30" rows="7"></textarea>
-            <input type="submit" value="Enviar" class="button"/>
-          </div> -->
-        </form>
+      
       </div>
 
       <center></br>2016 - Derecchos Reservados &copyRigth <a  href="https://www.facebook.com/1733597593524098/" target="blank" class="layout_a"> --- Iquitos' Jungle Club ---</a></center>
 
     </footer>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/blazy/1.5.4/blazy.min.js"></script>
+   <script type="text/javascript">
+          WebFontConfig = {
+            google: { families: [ 'Montserrat:400,700:latin', 'Allerta::latin' ] }
+          };
+          (function() {
+            var wf = document.createElement('script');
+            wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+            wf.type = 'text/javascript';
+            wf.async = 'true';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(wf, s);
+          })();
+      </script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.7/hammer.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/blazy/1.5.4/blazy.min.js"></script> 
+   
     <script>
       var consulta = window.matchMedia('(max-width: 500px)');
       consulta.addListener(mediaQuery);
@@ -240,6 +221,12 @@ De la comida no se preocupe es muy exquisita, siempre y cuando asista a los luga
       var $menu = document.getElementById('menu');
       function toggleMenu(){
         $menu.classList.toggle('active')
+      };
+      function showMenu(){
+        $menu.classList.add('active');
+      };
+      function hideMenu(){
+        $menu.classList.remove('active');
       };
 
       function mediaQuery() {
@@ -264,6 +251,15 @@ De la comida no se preocupe es muy exquisita, siempre y cuando asista a los luga
       // function toggleMenu(){
       //   $menu.classList.toggle('active')
       // };
+
+      // Gestos touch
+      var $body = document.body;
+
+      var gestos = new Hammer($body);
+      gestos.on('swipeleft', hideMenu);
+      gestos.on('swiperight', showMenu);
     </script>
+        <link rel="stylesheet" href="css/style.css"/>
+  
   </body>
 </html>

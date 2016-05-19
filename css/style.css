@@ -39,25 +39,6 @@
 
 
 
-/** {
-  width: tamaño;
-  height: tamaño;
-  padding: 10px;
-  padding-top: 10px;
-  padding-right: 13px;
-  padding-left: 15px;
-  padding-bottom: 5px;
-  padding: 10px 13px 5px 15px;
-  margin: 10px;
-  margin-top: 10px;
-  margin-right: 13px;
-  margin-left: 15px;
-  margin-bottom: 5px;
-  margin: 10px 13px 5px 15px;
-  border: 2px solid red;
-}*/
-
-
 /*   solo para configurar la pagina de informacion  */
 
 article p{
@@ -301,9 +282,6 @@ input:focus, textarea:focus {
   height: 190px;
 }
 
-
-
-
 .derecha{
   float: right;
   position: relative;
@@ -311,7 +289,6 @@ input:focus, textarea:focus {
 
 
 }
-
 
 .izquierda {
   float: left;
@@ -332,15 +309,16 @@ input:focus, textarea:focus {
 .header {
   position: relative;
 }
-/*
+
 .footer a{
   color: peru;
   text-decoration: none;
-} */
+} 
 
-.footer {
+.footer{
   background: #036564;
   padding: 14px 10px;
+ 
 }
 
 .contacto {
@@ -372,45 +350,10 @@ input:focus, textarea:focus {
 .footer .contenedor {
   display: flex;
   justify-content: space-between;
-}
-
-/*
-.formulario {
-  display: flex;
-  width: 400px;
-  color: white;
-}
 
 
-.col1, .col2 {
-  display: flex;
-  flex-direction: column;
 }
 
-.col1 {
-  margin-right: 15px;
-}
-.col2 {
-  align-items: flex-start;
-}
-
-.col2 .button {
-  margin-top: 15px;
-}
-
-.intereses label {
-  font-size: 12px;
-}
-
-.formulario label, .sexo, .intereses {
-  margin-bottom: 10px;
-}
-
-
-.sexo {
-  margin-top: 10px;
-}
-*/
 
 .tabla {
   margin: 50px 0;
@@ -451,13 +394,6 @@ input:focus, textarea:focus {
 @media screen and (max-width: 800px) {
  
 
-  /*body {
-    border: 10px solid red;
-  }*/
-  /*.contenedor {
-    width: auto;
-    max-width: 800px;
-  }*/
 
   /* precios */
   .tabla {
@@ -534,13 +470,8 @@ article p{
 
 article h2{
   
- /* padding-left: 20px;
-  background-color: peru;
-  color:#fff;
- border: 1px solid;
 
-*/
-width: 100%
+  width: 100%
   text-align: center;
   border-radius: 12px;
   border: none;
@@ -663,13 +594,6 @@ article p{
 
 article h2{
   
- /* padding-left: 20px;
-  background-color: peru;
-  color:#fff;
- border: 1px solid;
-
-*/
-
   text-align: center;
   border-radius: 12px;
   border: none;
@@ -783,13 +707,13 @@ article ul li{
 
   /* islas  contenedor*/
 
-  /* footer */
+  /* footer */ /*
   .col2 {
     align-items: stretch;
-  }
+  }  */
   /* footer */
 
-}
+
 
 
 
