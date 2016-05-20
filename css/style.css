@@ -372,9 +372,10 @@ input:focus, textarea:focus {
 
 
 .video-demo {
-  max-width: 500px;
+  max-width: 560px;
   width: 100%;
-  border: 5px solid #3c5b6e;
+  border: 6px solid #3c5b6e;
+ height: 318px;
 }
 
 .video-demo-contenedor {
@@ -383,11 +384,8 @@ input:focus, textarea:focus {
   margin-bottom: 80px;
 
 }
-
 @media screen and (max-width: 800px) {
  
-
-
   /* precios */
   .tabla {
     margin: 50px 20px;
@@ -417,7 +415,7 @@ input:focus, textarea:focus {
 
   /* urbano y campo */
   .video-demo-contenedor {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 
   }
   .isla {
@@ -685,7 +683,7 @@ article ul li{
     font-size: 30px;
   }
    .video-demo-contenedor {
-    margin: 0 10px 30px 10px;
+    margin: 0 15px 35px 10px;
   }
 
 
