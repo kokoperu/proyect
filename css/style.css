@@ -104,16 +104,10 @@ table {
 }
 
 th {
-  /* background: #273b47;   */
+   background: #273b47;  
   color: white;
 
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f9c667+14,f79621+44 */
-background: #f9c667; /* Old browsers */
-background: -moz-linear-gradient(45deg,  #f9c667 14%, #f79621 44%); /* FF3.6-15 */
-background: -webkit-linear-gradient(45deg,  #f9c667 14%,#f79621 44%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(45deg,  #f9c667 14%,#f79621 44%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9c667', endColorstr='#f79621',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-
+ 
 }
 
 th {
@@ -375,7 +369,7 @@ input:focus, textarea:focus {
   max-width: 560px;
   width: 100%;
   border: 6px solid #3c5b6e;
- height: 318px;
+
 }
 
 .video-demo-contenedor {
@@ -685,7 +679,6 @@ article ul li{
    .video-demo-contenedor {
     margin: 0 15px 35px 10px;
   }
-
 
 video {
   width: 100%;
