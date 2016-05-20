@@ -1,4 +1,4 @@
-/*@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700|Allerta);*/
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700|Allerta); 
 @font-face {
     font-family: 'icomoon';
     src:    url('../fonts/icomoon.eot?6s6d3k');
@@ -19,12 +19,10 @@
     font-variant: normal;
     text-transform: none;
     line-height: 1;
-
-    /* Better Font Rendering =========== */
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+ /* Better Font Rendering =========== */
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
 }
-
 .icon-envelope:before {
     content: "\e900";
 }
@@ -37,9 +35,6 @@
 .icon-close:before {
     content: "\e903";
 }
-
-
-
 /*   solo para configurar la pagina de informacion  */
 
 article p{
@@ -48,12 +43,8 @@ article p{
   padding-right: 90px;
   padding-left: 20px;
   text-align: justify;
-
 }
-
 article h2{
-  
-
   text-align: center;
   border-radius: 12px;
   border: none;
@@ -64,92 +55,61 @@ article h2{
   font-size: 18px;
   background: #fd324e;
   background: linear-gradient(to left, #fe344e, #ff7250);
-
 }
 article h3{
 margin-left: 20px;
-
-
 }
 article ul li{
   margin-left: 50px ;
   padding-left: 20px;
   text-align: justify;
-  
-
-
-}
+ }
  article span{
   text-decoration: underline;
   color: red;
  }
-
-article img{
-/*float: flexbox;*/
-flex: wrap;
-}   
-
-/*       fin de la configuracion de pagina informacion    */
-
-
-
 /* TIPOGRAFIA PARA EL CUERPO  html   */  
 body {
   font-family: 'Allerta', sans-serif;
   margin: 0;
 }
-
-
 /*    TABLA DE URBANO  */
 table {
   width: 100%;
 }
-
 th {
    background: #273b47;  
   color: white;
-
- 
 }
-
 th {
   padding: 10px 20px;
   text-align: left;
 }
-
 td {
   padding: 20px;
 }
-
 table, td, th {
   border: 1px solid #273b47;
   border-collapse: collapse;
 }
-
 input, textarea {
   outline: 0;
 }
-
 input:focus, textarea:focus {
   background: lightgray;
 }
-
 /*   finde la tabla  */
-
 .contenedor {   /* contenedor de  800 */
   max-width: 800px;
   margin: auto;
   position: relative;
 }
-
 .background {   /*   imagen del guacamayo  como header  */
   background-color: #466173;
   background-image: url('../images/header.png');
   background-size: cover;
 }
-
 .button {   /* boton de  CONOCE MÁS */
-
   border-radius: 12px;
   border: none;
   color: white;
@@ -160,7 +120,6 @@ input:focus, textarea:focus {
   background: #fd324e;
   background: linear-gradient(to left, #fe344e, #ff7250);
  }
-
 .titulo {   /* Iquitos Jungle Club */ 
   font-family: 'Montserrat', sans-serif;
   font-size: 70px;
@@ -168,15 +127,10 @@ input:focus, textarea:focus {
   margin-bottom: 0;
   margin-top: 70px;
  color: yellow;
-
-
- 
 }
 .titulo span {
   text-decoration: underline;   /* linea de Iquitos  */
-
 }
-
 .title-a {   /*  borde de titulo  Ven y diviertete   */
   font-size: 20px;
   /*margin-top: auto;*/
@@ -186,69 +140,49 @@ input:focus, textarea:focus {
   border-radius: 12px;
   text-decoration: none;
   background: linear-gradient(to left, orange, cyan);
-  
-}
-
+ }
 .title-b {  /* turismo aventura y urbano */
   font-size: 50px;
   margin-bottom: 20px;
-  
-
-}
-
+ }
 .isla{
   color: #1F313C;
   margin-bottom: 60px;
  /* background-color: blue;   /*  para saber que es*/
 }
-
 .isla h2 {
   font-family: 'Montserrat', sans-serif;
   font-size: 35px;
-
 }
-
-
-
 .portada {  /* contenedor y da color a titulo Ven y diviertete */
-
   color: white;
   padding: 20px;
   height: 500px;
- 
 }
-
-
 .menu {
   font-size: 24px;
   display: inline-block;
   position: absolute;
   right: 0;
 }
-
 .menu li {
   display: inline-block;
   margin-left: 30px;
 }
-
 .menu li:before{
  /* content: '∘';  */     /* icono en el menu */ 
   font-size: 50px;
   line-height: 20px;
   color: white;
 }
-
 .menu a {
   color: white;
   text-decoration: none;
 }
-
 .logotipo {
   display: inline-block;
   margin-left: 0;
 }
-
-
 .urba-campo {
   margin: 10px 10px 60px 10px;
   padding: 10px;
@@ -263,21 +197,16 @@ input:focus, textarea:focus {
 .ciudad.b {
   height: 190px;
 }
-
 .derecha{
   float: right;
   position: relative;
   top: 6px;
-
-
 }
-
 .izquierda {
   float: left;
   position: relative;
   top: 13px;
 }
-
 .contenedor-ciudad-a {
   padding-left: 20px;
 }
@@ -285,63 +214,45 @@ input:focus, textarea:focus {
   margin-left: 370px;
   position: relative;
   bottom: 31px;
-
 }
-
 .header {
   position: relative;
 }
-
 .footer a{
   color: peru;
   text-decoration: none;
 } 
-
 .footer{
   background: #036564;
   padding: 14px 10px;
- 
 }
-
 .contacto {
   display: flex;
   width: 300px;
   flex-wrap: wrap;
   align-items: center;
 }
-
 /*  para contacto */
-     
+ 
 .contacto img {
   display: block;
   width: 80%;  
 }
-
 .contacto strong {
   display: block;
 }
-
 .contacto a {
   color: white;
   text-decoration: none;
   margin: 10px 10px 10px 0;
 }
-
-
-
 .footer .contenedor {
   display: flex;
   justify-content: space-between;
-
-
 }
-
-
 .tabla {
   margin: 50px 0;
 }
-
-
 .burguer-button {
   width: 40px;
   border-radius: 50%;
@@ -358,24 +269,18 @@ input:focus, textarea:focus {
   z-index: 3;
   display: none;
 }
-
-
 .video-demo {
   max-width: 560px;
   width: 100%;
   border: 6px solid #3c5b6e;
-
 }
-
 .video-demo-contenedor {
   display: flex;
   justify-content: center;
   margin-bottom: 80px;
-
 }
 @media screen and (max-width: 800px) {
- 
-  /* precios */
+   /* precios */
   .tabla {
     margin: 50px 20px;
   }
@@ -400,12 +305,9 @@ input:focus, textarea:focus {
     display: inline-block;
   }
   /* portada */
-
-
   /* urbano y campo */
   .video-demo-contenedor {
     margin-bottom: 20px;
-
   }
   .isla {
     text-align:center;
@@ -422,8 +324,6 @@ input:focus, textarea:focus {
   }
   .ciudad.b {       /*  PARA REVISAR CON MAYOR DETALLE  */
     height: auto;
-   
-
   } 
   .contenedor-ciudad-b {
     position: static;
@@ -433,11 +333,8 @@ input:focus, textarea:focus {
     padding: 0;
   }
   /* ciudad urbano  y campo*/
-
 }
-
 @media screen and (max-width: 767px) {   /*  max-width:767px  */ 
-
 /*  arituculo de la pagina de informacion  */
 article p{
   margin-left:  2px;
@@ -445,13 +342,9 @@ article p{
   padding-right: 0;
   padding-left: 5px;
   text-align: justify;
-
 }
-
 article h2{
-  
-
-  width: 100%
+   width: 100%
   text-align: center;
   border-radius: 12px;
   border: none;
@@ -462,28 +355,20 @@ article h2{
   font-size: 18px;
   background: #fd324e;
   background: linear-gradient(to left, #fe344e, #ff7250);
-
 }
 article h3{
-
 margin-left: 2px;
 padding: 0;
-/*padding-left: 20px;*/
-
 }
 article ul li{
   margin-left: 1px;
   padding-left: 0px;
   text-align: justify;
-}
-
- /* fin del articulo de pagina de información  */
-
+}/* fin del articulo de pagina de información  */
   /* footer */
   .footer .contenedor {
     display: block;
   }
-
   .contacto {
     margin: 0 auto;
     display: block;
@@ -527,47 +412,35 @@ article ul li{
   }
   /* footer */
 }
-
 @media screen and (max-width: 650px) {
-
   .header {
     text-align: center;
   }
-
   .logotipo {
     margin: 0;
   }
-
   .menu {
     position: static;
     display: block;
   }
-
   .menu li:first-child {
     margin: 0;
   }
-
   .menu ul {
     padding: 0;
   }
-
 }
-
 
 @media screen and (max-width: 500px) {
 
-/*   SOLO PARA LA PAGINA DE INFORMACION  EL ARTICULO  */
-article p{
+article p{        /*   SOLO PARA LA PAGINA DE INFORMACION  EL ARTICULO  */
   margin-left:  2px;
   margin-right: 1px;
   padding-right: 0;
   padding-left: 5px;
   text-align: justify;
-
 }
-
 article h2{
-  
   text-align: center;
   border-radius: 12px;
   border: none;
@@ -578,25 +451,18 @@ article h2{
   font-size: 18px;
   background: #fd324e;
   background: linear-gradient(to left, #fe344e, #ff7250);
-
 }
 article h3{
 
 margin-left: 2px;
 padding: 0;
-
-
 }
 article ul li{
-
   margin-left: -12px;
   padding-left: 0;
   text-align: justify;
-
-}
- /*  FIN DEL ARTICULO DE LA PAGINA DE INFORMACION  */ 
-
-  /* portada */
+}  /*  FIN DEL ARTICULO DE LA PAGINA DE INFORMACION  */ 
+   /* portada */
   .portada .button {
     display: block;
   }
@@ -633,7 +499,6 @@ article ul li{
   .menu.active {
     left: 0;
   }
-
   .menu ul {
     flex: 1;
   }
@@ -643,7 +508,6 @@ article ul li{
     padding: 8px 0;
     border-bottom: 1px solid white;
   }
-
   .menu li:before {
     display: none;
   }
@@ -662,7 +526,6 @@ article ul li{
     font-size: 16px
   }
   /* portada */
-
   /* isla contenedor  */
   .urba-campo img {
     width: 300px;
@@ -674,17 +537,13 @@ article ul li{
    .video-demo-contenedor {
     margin: 0 15px 35px 10px;
   }
-
 video {
   width: 100%;
 }
-
-
 .video-responsive-contenedor {
   position: relative;
   padding-top: 56.25%;
 }
-
 .video-responsive-src {
   position: absolute;
   left: 0;
@@ -694,12 +553,9 @@ video {
   width: 100%;
   height: 100%;
 }
-
 @media screen and (-webkit-min-device-pixel-ratio: 2) {
   .background {
     background-image: url('../images/header.png');
   }
-
-
   }
 }
