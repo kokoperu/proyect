@@ -41,6 +41,7 @@ body {
   margin: 0;
 }
 
+
 article p{
   margin-left:  40px;
   margin-right: 15px;
@@ -230,7 +231,7 @@ input:focus, textarea:focus {
 .contacto {
   display: flex;
   width: 300px;
-  flex-wrap: wrap;
+  /*display: flexbox;  */
   align-items: center;
 }
 /*  para contacto */
@@ -280,6 +281,7 @@ input:focus, textarea:focus {
   justify-content: center;
   margin-bottom: 80px;
 }
+
 @media screen and (max-width: 800px) {
    /* precios */
   .tabla {
