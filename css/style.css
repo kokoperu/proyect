@@ -46,7 +46,7 @@ input:focus, textarea:focus{background:lightgray;}
 .footer a{color:peru;text-decoration:none;}
 .footer{background:#036564;padding:14px 10px;}
 .contacto{display:flex;width:300px;align-items:center;}
-.contacto img{display:block;width:80%;}
+.contacto img{display:block;width:80%;padding-right: 15px;}
 .contacto strong{display:block;}
 .contacto a{color:white;text-decoration:none;margin:10px 10px 10px 0;}
 .footer .contenedor{display:flex;justify-content:space-between;}
@@ -77,17 +77,17 @@ article ul li{margin-left:1px;padding-left:0px;text-align:justify;}
 .footer .contenedor{display:block;}
 .contacto{margin:0 auto;display:block;}
 .contacto a{display:block;}
-.formulario{display:block;margin:0 auto;width:300px;}
-.sexo label{display:block;}
-.formulario label{font-size:20px;}
+/*.formulario{display:block;margin:0 auto;width:300px;}
+.sexo label{display:block;}*/
+/*.formulario label{font-size:20px;}*/
 .intereses label{display:block;font-size:20px;}
 .col1{margin:0;}
-input[type="text"]{margin-bottom:30px;}
+/*input[type="text"]{margin-bottom:30px;}
 input[type="text"],
 input[type="email"]{font-size:16px;padding:5px;}
 textarea{width:100%;}
 input[type="radio"],
-input[type="checkbox"]{zoom:1.5;}
+input[type="checkbox"]{zoom:1.5;}*/
 }
 @media screen and (max-width:650px){.header{text-align:center;}
 .logotipo{margin:0;}
